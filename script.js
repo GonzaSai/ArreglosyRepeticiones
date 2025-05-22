@@ -47,4 +47,36 @@ console.log(nombres.length)
 
 //1
 
-let numeros = [0, 1, 2, 3, 4]
+let numeros = [1, 2, 3, 4]
+
+//2
+
+for (let indice = 0; indice < numeros.length; indice++) {
+    console.log(numeros[indice])
+    
+}
+
+//Ejercicio 4
+
+//1
+
+let numeros2 = [5, 6, 7, 8]
+
+let suma = 0
+
+//2
+
+for (let indice2 = 0 ; indice2 < numeros2.length; indice2++) {
+    suma += numeros2[indice2]
+    console.log(suma)
+}
+
+//Ejercicio 5
+
+let palabra1 = prompt('Introduce una palabra')
+let palabra2 = prompt('Introduce una palabra')
+let palabra3 = prompt('Introduce una palabra')
+let palabra4 = prompt('Introduce una palabra')
+let palabra5 = prompt('Introduce una palabra')
+let palabras = [palanra1+ palabra2+ palabra3+ palabra4 + palabra5]
+console.log(palabras)
