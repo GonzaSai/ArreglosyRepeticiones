@@ -49,7 +49,7 @@ console.log(nombres.length)
 
 let numeros = [1, 2, 3, 4]
 
-//2
+//2 y 3
 
 for (let indice = 0; indice < numeros.length; indice++) {
     console.log(numeros[indice])
@@ -64,7 +64,7 @@ let numeros2 = [5, 6, 7, 8]
 
 let suma = 0
 
-//2
+//2 y 3
 
 for (let indice2 = 0 ; indice2 < numeros2.length; indice2++) {
     suma += numeros2[indice2]
@@ -73,10 +73,18 @@ for (let indice2 = 0 ; indice2 < numeros2.length; indice2++) {
 
 //Ejercicio 5
 
+//1
 let palabra1 = prompt('Introduce una palabra')
 let palabra2 = prompt('Introduce una palabra')
 let palabra3 = prompt('Introduce una palabra')
 let palabra4 = prompt('Introduce una palabra')
 let palabra5 = prompt('Introduce una palabra')
-let palabras = [palanra1+ palabra2+ palabra3+ palabra4 + palabra5]
+
+//2
+
+let palabras = []
+palabras.push(palabra1, palabra2, palabra3, palabra4, palabra5)
+
+//3
+
 console.log(palabras)
